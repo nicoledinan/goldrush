@@ -1,0 +1,134 @@
+body {
+  color: white;
+  background-color: #333333;
+}
+
+.navbar-brand {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 20px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  background-color: #237abd !important;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 80px;
+  padding-top: 200px;
+}
+
+.lead {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 26px;
+}
+
+.byline {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 18px;
+  padding-bottom: 50px;
+}
+
+.section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: right;
+  padding-right: 20px;
+}
+
+.navbar, .navbar-expand-md, .navbar-dark, .bg-dark {
+  background-color: #333333;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+#map {
+  width: 100%;
+  height: 500px;
+}
+
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 0;
+  margin-top: 10px;
+  margin-bottom: 0;
+  text-shadow: 2px 2px 2px black;
+}
+
+/* footer */
+.footer {
+  background-color: var(--dk-color);
+  color: #ffffff;
+  height: 50px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.footer a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0;
+}
+
+.footer a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* Media Queries  */
+@media only screen and (max-width: 1150px) {
+  h2 {
+    text-align: right;
+    padding-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 1057px) {
+  h2 {
+    font-size: 15px;
+    text-align: right;
+    padding-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 907px) {
+  h2 {
+    font-size: 13px;
+    text-align: right;
+    padding-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  h2 {
+    font-size: 32px;
+    text-align: center;
+    padding-right: 0px;
+    padding-bottom: 20px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  .byline {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+}
